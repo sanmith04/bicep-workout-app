@@ -25,7 +25,7 @@ def calculate_angle(a,b,c):
                             angle = 360-angle
 
                         return angle
-cap = cv2.VideoCapture(cv2.CAP_V4L2)
+cap = cv2.VideoCapture(0)
 
 
 def gen_frames():   
